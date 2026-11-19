@@ -1,0 +1,6 @@
+#!/bin/bash
+# Copy to run.sh (which git ignores), fill in your details, then: chmod +x run.sh
+cd "$(dirname "$0")" && source .venv/bin/activate
+export BSKY_HANDLE=yourname.bsky.social
+export BSKY_APP_PASSWORD=xxxx-xxxx-xxxx-xxxx
+python sentiment_tracker.py collect && python sentiment_tracker.py dashboard

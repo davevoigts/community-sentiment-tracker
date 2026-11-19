@@ -1,0 +1,71 @@
+{
+  "project_name": "Riverton Energy Park",
+  "area_name": "Marlow County",
+  "search": {
+    "news": [
+      "\"Riverton Energy Park\"",
+      "\"Marlow County\" energy park"
+    ],
+    "gdelt": [
+      "\"Riverton Energy Park\"",
+      "\"Marlow County\" energy"
+    ],
+    "social": [
+      "\"Riverton Energy Park\"",
+      "Marlow County energy park"
+    ],
+    "mastodon_tags": [
+      "RivertonEnergyPark",
+      "MarlowCounty"
+    ]
+  },
+  "relevance": {
+    "project_terms": [
+      "riverton energy park"
+    ],
+    "exclude_terms": [
+      "riverton energy park bank"
+    ],
+    "place_terms": [
+      "marlow county",
+      "riverton"
+    ],
+    "topic_terms": [
+      "energy",
+      "power plant"
+    ],
+    "strict": false
+  },
+  "filters": {
+    "languages": [
+      "en"
+    ],
+    "max_hashtags": 3,
+    "collapse_reposts": true,
+    "min_words": 4,
+    "block_phrases": [
+      "sponsored"
+    ],
+    "skip_sources": []
+  },
+  "theme_additions": {
+    "safety": [
+      "explosion",
+      "fire risk"
+    ],
+    "heritage": [
+      "listed building",
+      "historic",
+      "heritage"
+    ]
+  },
+  "themes": {},
+  "lexicon": {
+    "eyesore": -2.5
+  },
+  "source_weights": {
+    "survey": 2.5
+  },
+  "database": "tracker.db",
+  "start_date": "2026-09"
+}

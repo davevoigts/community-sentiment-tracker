@@ -1,0 +1,22 @@
+# Your data: never commit it. It may contain comments by private individuals.
+tracker*.db
+*.db
+dashboard.html
+weekly_report.csv
+weekly_summary.md
+evidence.csv
+last_run.log
+imports/
+# Credentials
+run.sh
+.env
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Your project settings (may name a project you would rather not publish)
+project.json
+*.project.json
+!examples/project.example.json
